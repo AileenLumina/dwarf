@@ -1,6 +1,8 @@
 # Dwarf: Discord Web Application Rendering Framework
 
-### Dwarf - Documentation
+Dwarf is a ready-to-use framework that allows for easy development of powerful applications (e.g. economy system, profile system, RPG etc.) that enhance the popular chat service Discord. It consists of a Discord bot, a web frontend, a cache backend and a database backend. It is written on top of Django and discord.py.
+
+### Documentation
 
 I'll have to write everything down ASAP, but for now, check the Django documentation about models, discord.py's documentation, dwarf.api.management and the following:
 `from dwarf.api import CacheAPI`
@@ -10,7 +12,7 @@ The value can be of any type. After you've set it, you can get it from the Redis
 `data = CacheAPI.get(key='dwarf_your_key_here')`
 Have fun! If you need help, drop by [my Discord server](https://discord.me/AileenLumina). If you write an extension and want it to be installable for others, add it to the Dwarf Extension Index (dwarf/extensions.py).
 
-### Dwarf - Quick Install Guide
+### Quick Install Guide
 
 First off, you need Python 3.5 or above, PostgreSQL and Redis (the Windows port works, too). After that, start a terminal session (cmd.exe on Windows) and install virtualenv and virtualenvwrapper:
 `pip3 install virtualenv`
@@ -29,7 +31,7 @@ And on Windows:
 After you've done that, start a new Django project in a directory of your choice as follows:
 `django-admin startproject project-name`
 (Replace project-name with the name of your project, e.g. dwarfproject, mybot or mysite.) This will create the folder structure of your Django project. Now you can download Dwarf by going to your project directory and issueing the following (use Git Bash for this if you're on Windows):
-`git clone https://github.com/AileenLumina/dwarf`
+`git clone https://bitbucket.org/AileenLumina/dwarf`
 You now need to adjust the settings.py file (in `/project-name/project-name`) as follows:
 - Set the database backend to PostgreSQL.
     Example:
