@@ -1,3 +1,7 @@
+# Important
+
+The content of this repository is **outdated**. Development of Dwarf continues at [Dwarf-Community](https://github.com/Dwarf-Community/Dwarf).
+
 # Dwarf: Discord Web Application Rendering Framework
 
 Dwarf is a ready-to-use framework that allows for easy development of powerful applications (e.g. economy system, profile system, RPG etc.) that enhance the popular chat service Discord. It consists of a Discord bot, a web frontend, a cache backend and a database backend. It is written on top of Django and discord.py.
